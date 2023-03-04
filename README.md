@@ -19,7 +19,7 @@ com.openai
 com.utilities
 ```
 
-- Open the Unity Package Manager window
+- Open the `Unity Package Manager window`
 - Change the Registry from Unity to My Registries
 - Add the OpenAI package
 - Update the package
