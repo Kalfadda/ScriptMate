@@ -1,5 +1,5 @@
 # ScriptMate
-ScriptMate is an Unity3D editor plugin that generates a summary of a script file using OpenAI's natural language processing. It allows the user to select a script file and then generate a summary of it with ease.
+ScriptMate is a Unity3D editor plugin that generates a summary of a script file using OpenAI's natural language processing. It allows the user to select a script file and then generate a summary of it with ease.
 
 ![image](https://user-images.githubusercontent.com/38150569/222929912-e6907a5f-b800-4e8d-87a9-2773bc58cba0.png)
 
