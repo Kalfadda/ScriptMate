@@ -24,8 +24,8 @@
       <h2>Installation</h2>
       <p>
 • Open your Unity project settings
-- Navigate to the `Package Manager` in `Project Settings` | Edit -> Project Settings -> Package Manager
-- Add the OpenUPM package registry inside Scoped Registries (be sure to check `Enable Preview Packages` and `Show Dependencies`):
+- Navigate to the `Package Manager` in Project Settings | Edit -> Project Settings -> Package Manager
+- Add the OpenUPM package registry inside Scoped Registries (be sure to check Enable Preview Packages and Show Dependencies):
 
 ```
 Name: ScriptMate
