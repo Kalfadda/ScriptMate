@@ -1,37 +1,61 @@
-# ScriptMate
-ScriptMate is a Unity3D editor plugin that generates a summary of a script file using OpenAI's natural language processing. It allows the user to select a script file and then generate a summary of it with ease.
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+  </head>
+  <body>
+    <header>
+      <h1>ScriptMate</h1>
+    </header>
+    <nav>
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#installation">Installation</a></li>
+        <li><a href="#usage">Usage</a></li>
+        <li><a href="#Special Thanks">Special Thanks</a></li>
+      </ul>
+    </nav>
+    <section id="about">
+      <h2>About</h2>
+      <p>ScriptMate is a Plugin for the Unity Editor which generates a summary of a C# Script into a Natural, Human readable format. This tool utilises OpenAi's processing to generate Script summaries directly within the Editor. ScriptMate is a powerful and useful tool for (near) automatic documentation or a quick understanding of a script without leaving the Editor.</p>
+      <img src="https://user-images.githubusercontent.com/38150569/222934358-ce6ab412-f62b-4e8c-a136-2f39145afc68.png" alt="Project image">
+    </section>
+    <section id="installation">
+      <h2>Installation</h2>
+      <p>
+• Open your Unity project settings
+- Navigate to the `Package Manager` in `Project Settings` | Edit -> Project Settings -> Package Manager
+- Add the OpenUPM package registry inside Scoped Registries (be sure to check `Enable Preview Packages` and `Show Dependencies`):
 
-![image](https://user-images.githubusercontent.com/38150569/222929912-e6907a5f-b800-4e8d-87a9-2773bc58cba0.png)
-
-## Requirements
-- Unity 2021.3 LTS or higher<br>
-- <a href="https://openupm.com/packages/com.openai.unity/">OpenAI UPM Package</a>
-
-## Installation
-- Open your Unity project settings
-- Navigate to `Package Manager`
-- Add the OpenUPM package registry (be sure to check `Enable Preview Packages` and `Show Dependencies`):
-
-```Name: OpenUPM
+```
+Name: ScriptMate
 URL: https://package.openupm.com
 Scope(s):
 com.openai
 com.utilities
 ```
 
-- Open the `Unity Package Manager window`
-- Change the Registry from Unity to My Registries
-- Add the OpenAI package
-- Update the package
+- Open the `Unity Package Manager Window` | Window -> Package Manager
+- Click the "Packages: " drop-down at the top, and switch it to "My Registries"
+- OpenAI should be in the list, click it and click "Install/Update"
 - Add `ScriptMate.cs` to any folder called `"Editor"` in your project 
-- Define your own API key in the scriptable object (see <a href="https://github.com/Kalfadda/ScriptMate#usage">Usage</a>)
-
-## Usage
+- Define your own API key in the scriptable object</p>
+    </section>
+    <section id="usage">
+      <h2>Usage</h2>
+      <p>• In the Unity Editor, Select Window -> ScriptMate<br>
+      • Drag any script object into the input<br>
+      • Press Generate<br><br>
 You must provide your own API key from openAI. It can be placed in the OpenAIConfigurationSettings but you must create the scriptableobject first:<br>
-- You can save the key directly into a scriptable object that is located in the `Assets/Resources` folder.
-- Create a new one by using the context menu of the project pane and creating a new `OpenAI > OpenAIConfigurationSettings` scriptable object.
-
-
-### Special Thanks
-Stephen Hodgson for creating the UPM package: https://github.com/RageAgainstThePixel/com.openai.unity <a href="https://openupm.com/packages/com.openai.unity/"><img src="https://img.shields.io/npm/v/com.openai.unity?label=openupm&amp;registry_uri=https://package.openupm.com" /></a><br>
-OpenAI: https://openai.com/
+- You can save the key directly into a scriptable object that is located in the Assets/Resources folder.<br>
+- Create a new one by using the context menu of the project pane and creating a new OpenAI > OpenAIConfigurationSettings scriptable object.
+</p>
+    </section>
+    <section id="Special Thanks">
+      <h2>Special Thanks</h2>
+Kaeden Irvine<br>
+<p>Stephen Hodgson https://github.com/RageAgainstThePixel/com.openai.unity <a href="https://openupm.com/packages/com.openai.unity/"><img src="https://img.shields.io/npm/v/com.openai.unity?label=openupm&amp;registry_uri=https://package.openupm.com" /></a><br>
+OpenAI https://openai.com/<br></p>
+    </section>
+  </body>
+</html>
