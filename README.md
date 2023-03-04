@@ -23,7 +23,7 @@ com.utilities
 - Change the Registry from Unity to My Registries
 - Add the OpenAI package
 - Update the package
-- Add 'ScriptMate.cs' to any folder called "Editor" in your project
+- Add `ScriptMate.cs` to any folder called `"Editor"` in your project
 - Define your own API key in the scriptable object (see <a href="https://github.com/Kalfadda/ScriptMate/edit/main/README.md#usage">Usage</a>)
 
 ## Usage
