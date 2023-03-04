@@ -9,6 +9,7 @@ ScriptMate is a Unity3D editor plugin that generates a summary of a script file 
 
 ## Installation
 - Open your Unity project settings
+- Navigate to `Package Manager`
 - Add the OpenUPM package registry:
 
 ```Name: OpenUPM
