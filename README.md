@@ -24,7 +24,7 @@
       <h2>Installation</h2>
       <p>
 • Open your Unity project settings
-- Navigate to the `Package Manager` in Project Settings | Edit -> Project Settings -> Package Manager
+- Navigate to the Package Manager in Project Settings | Edit -> Project Settings -> Package Manager
 - Add the OpenUPM package registry inside Scoped Registries (be sure to check Enable Preview Packages and Show Dependencies):
 
 ```
@@ -35,7 +35,7 @@ com.openai
 com.utilities
 ```
 
-- Open the `Unity Package Manager Window` | Window -> Package Manager
+- Open the Unity Package Manager Window | Window -> Package Manager
 - Click the "Packages: " drop-down at the top, and switch it to "My Registries"
 - OpenAI should be in the list, click it and click "Install/Update"
 - Add `ScriptMate.cs` to any folder called `"Editor"` in your project 
