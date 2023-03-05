@@ -17,7 +17,7 @@
     </nav>
     <section id="about">
       <h2>About</h2>
-      <p>ScriptMate is a Plugin for the Unity Editor which generates a summary of a C# Script into a Natural, Human readable format. This tool utilises OpenAi's processing to generate Script summaries directly within the Editor. ScriptMate is a powerful and useful tool for (near) automatic documentation or a quick understanding of a script without leaving the Editor.</p>
+      <p>ScriptMate is a simple and powerful plugin for the Unity Editor which generates a summary of a C# Script into a Natural, Human readable format. This tool utilises OpenAi's processing to generate Script summaries for (near) automatic documentation or a quick understanding of a script without leaving the Editor.</p>
       <img src="https://user-images.githubusercontent.com/38150569/222934358-ce6ab412-f62b-4e8c-a136-2f39145afc68.png" alt="Project image">
     </section>
     <section id="installation">
