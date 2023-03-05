@@ -39,16 +39,16 @@ com.utilities
 - Click the "Packages: " drop-down at the top, and switch it to "My Registries"
 - OpenAI should be in the list, click it and click "Install/Update"
 - Add `ScriptMate.cs` to any folder called `"Editor"` in your project 
-- Define your own API key in the scriptable object</p>
+- Define your own API key in the scriptable object that comes included or create your own (see usage)
+        
+You must provide your own API key from openAI. It can be placed in the OpenAIConfigurationSettings included or you can make your own. You can create a new one by using the context menu of the project pane and creating a new OpenAI > OpenAIConfigurationSettings scriptable object.<br>
+Save the key directly into a scriptable object and place it in any resources folder.<br></p>
     </section>
     <section id="usage">
       <h2>Usage</h2>
       <p>• In the Unity Editor, Select Window -> ScriptMate<br>
       • Drag any script object into the 'Script File' field<br>
       • Press Summarize Script<br><br>
-You must provide your own API key from openAI. It can be placed in the OpenAIConfigurationSettings but you must create the scriptableobject first:<br>
-- You can save the key directly into a scriptable object that is located in the Assets/Resources folder.<br>
-- Create a new one by using the context menu of the project pane and creating a new OpenAI > OpenAIConfigurationSettings scriptable object.
 </p>
     </section>
     <section id="Special Thanks">
